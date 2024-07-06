@@ -24,7 +24,7 @@ source ds-venv/bin/activate
 
 Install required packages 
 ```
-pip install jupyterlab pandas matplotlib 
+pip install jupyterlab pandas matplotlib scikit-learn
 python3 -m pip install -U scikit-learn
 ```
 
@@ -36,6 +36,7 @@ Add the following requirements into requirements.txt:
 - jupyterlab 
 - pandas
 - matplotlib
+- sklearn
 
 ## Freeze Requirements
 
@@ -63,3 +64,11 @@ git push origin main
 Copy lab1_starter.ipynb into workspace. Rename it to personalize to your work. Open and begin your project. 
 
 Follow project steps as found in [this PDF](https://github.com/meldstonerogers/machine-learning-module2lab-/blob/main/Lab%20W2%20scikit.pdf).
+
+## Complete Your Project
+Save your project and push back to your repository. 
+```
+git add .
+git commit -m "final"                         
+git push origin main
+```
